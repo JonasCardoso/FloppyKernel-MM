@@ -76,4 +76,4 @@ obj-$(CONFIG_QFP_FUSE) += qfp_fuse.o
 obj-y += lge_tty_atcmd.o
 # LGE AT-CMD Bypass interface porting, myunghwan.kim@lge.com [END]
 obj-$(CONFIG_UID_CPUTIME) 	+= uid_cputime.o
-
+obj-$(CONFIG_BLX)		+= blx.o
