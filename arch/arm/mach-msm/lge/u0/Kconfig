@@ -1,0 +1,7 @@
+config MACH_MSM7X27A_U0
+    depends on ARCH_MSM7X27A
+    depends on !MSM_STACKED_MEMORY
+    select MACH_LGE
+    bool "MSM7x27A U0"
+    help
+        Support for the LG Electronics MSM7x27A U0.

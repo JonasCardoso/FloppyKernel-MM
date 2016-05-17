@@ -1,0 +1,21 @@
+config MACH_MSM8X25_V7
+	depends on ARCH_MSM8625
+	depends on !MSM_STACKED_MEMORY
+	select MACH_LGE
+	bool "MACH_MSM8X25_V7"
+	help
+	  Support for the LG Electronics vee7 board LGE.
+
+config MACH_MSM8X25_U0
+	depends on ARCH_MSM8625
+	select MACH_LGE
+	bool "MSM8X25_U0"
+	help
+	  Support for the LG Electronics MSM8X25 U0 swap version.(E2 release )
+
+config MACH_MSM8X25_HDK
+	depends on ARCH_MSM8625
+	select MACH_LGE
+	bool "MSM8X25_HDK"
+	help
+	  Support for the LG Electronics MSM8X25 HDK.

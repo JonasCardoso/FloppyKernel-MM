@@ -1,0 +1,5 @@
+#platform.team@lge.com	2011.01
+
+menu "LGE Factory Feature"
+source "lge/factory/Kconfig"
+endmenu
