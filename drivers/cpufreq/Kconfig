@@ -409,7 +409,7 @@ config CPU_FREQ_VDD_LEVELS
 	depends on MACH_MSM7X25A_M4 || MACH_MSM7X25A_U0
 	default n
 	help
-	  CPU Vdd levels sysfs interface
+	  CPU Vdd levels sysfs interface for L5 and L7
 
 menu "x86 CPU frequency scaling drivers"
 depends on X86
